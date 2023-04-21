@@ -20,9 +20,8 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-from typing import Tuple
-
 import numpy as np
+from typing import Tuple
 
 from kiss_icp.config import KISSConfig
 from kiss_icp.pybind import kiss_icp_pybind

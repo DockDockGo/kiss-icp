@@ -22,8 +22,8 @@
 # SOFTWARE.
 import importlib
 import os
-import sys
 from pathlib import Path
+import sys
 from typing import List
 
 import numpy as np

@@ -22,8 +22,8 @@
 # SOFTWARE.
 import importlib
 import os
-import re
 from pathlib import Path
+import re
 
 import numpy as np
 from pyquaternion import Quaternion

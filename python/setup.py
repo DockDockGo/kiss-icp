@@ -60,7 +60,6 @@ with skbuild_isolated_context():
     setup(
         packages=find_packages(),
         cmake_install_dir="kiss_icp/pybind/",
-        cmake_install_target="install_python_bindings",
         entry_points={"console_scripts": ["kiss_icp_pipeline=kiss_icp.tools.cmd:run"]},
         install_requires=[
             "natsort",

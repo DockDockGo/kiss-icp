@@ -42,10 +42,10 @@ def generate_launch_description():
             DeclareLaunchArgument("bagfile", default_value=""),
             DeclareLaunchArgument("visualize", default_value="true"),
             DeclareLaunchArgument("odom_frame", default_value="odom"),
-            DeclareLaunchArgument("child_frame", default_value="base_link"),
+            DeclareLaunchArgument("child_frame", default_value="base_footprint"),
             # KISS-ICP parameters
             DeclareLaunchArgument("deskew", default_value="false"),
-            DeclareLaunchArgument("max_range", default_value="100.0"),
+            DeclareLaunchArgument("max_range", default_value="20.0"),
             DeclareLaunchArgument("min_range", default_value="5.0"),
             # This thing is still not suported: https://github.com/ros2/launch/issues/290#issuecomment-1438476902
             #  DeclareLaunchArgument("voxel_size", default_value=None),

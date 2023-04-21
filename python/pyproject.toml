@@ -21,5 +21,4 @@ archs = ["auto64"]
 skip = ["*-musllinux*",  "pp*"]
 
 [tool.cibuildwheel.macos]
-environment = "MACOSX_DEPLOYMENT_TARGET=10.14"
-archs = ["auto64", "arm64"]
+archs = ["auto64", "universal2"]

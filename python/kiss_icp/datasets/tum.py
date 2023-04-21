@@ -23,9 +23,8 @@
 import importlib
 import os
 from pathlib import Path
-
-import numpy as np
 from pyquaternion import Quaternion
+import numpy as np
 
 
 class TUMDataset:
